@@ -1,1 +1,3 @@
 mvn install:install-file -Dfile=${project.basedir}/libs/fileManager.jar -DgroupId=com.github.morghayn -DartifactId=fileManager -Dversion=1.0 -Dpackaging=jar -DlocalRepositoryPath=${project.basedir}/libs -DcreateChecksum=true
+
+mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=${project.basedir}/libs/fileManager.jar -DgroupId=com.github.morghayn -DartifactId=fileManager -Dversion=1.0 -Dpackaging=jar

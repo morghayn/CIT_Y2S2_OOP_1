@@ -14,6 +14,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <!--
+    <repositories>
+        <repository>
+            <id>lib</id>
+            <url>${project.basedir}/libs</url>
+        </repository>
+    </repositories>
+    -->
+
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
@@ -38,12 +47,13 @@
             <version>15-ea+5</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-graphics -->
+        <!--
         <dependency>
             <groupId>com.github.morghayn</groupId>
             <artifactId>fileManager</artifactId>
             <version>1.0</version>
         </dependency>
+        -->
 
     </dependencies>
 
@@ -106,12 +116,5 @@
         </resources>
 
     </build>
-
-    <repositories>
-        <repository>
-            <id>lib</id>
-            <url>${project.basedir}/libs</url>
-        </repository>
-    </repositories>
 
 </project>
