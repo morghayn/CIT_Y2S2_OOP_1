@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.morghayn</groupId>
@@ -38,11 +38,11 @@
             <version>15-ea+5</version>
         </dependency>
 
-
+        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-graphics -->
         <dependency>
+            <groupId>com.github.morghayn</groupId>
             <artifactId>fileManager</artifactId>
-            <groupId>..</groupId>
-            <scope>system</scope>
+            <version>1.0</version>
         </dependency>
 
     </dependencies>
@@ -109,8 +109,8 @@
 
     <repositories>
         <repository>
-            <id>fileManager</id>
-            <url>${project.basedir}/src/main/resources/fileManager.jar</url>
+            <id>lib</id>
+            <url>${project.basedir}/libs</url>
         </repository>
     </repositories>
 

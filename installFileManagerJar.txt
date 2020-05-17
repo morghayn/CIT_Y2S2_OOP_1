@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=${project.basedir}/libs/fileManager.jar -DgroupId=com.github.morghayn -DartifactId=fileManager -Dversion=1.0 -Dpackaging=jar -DlocalRepositoryPath=${project.basedir}/libs -DcreateChecksum=true
