@@ -43,7 +43,6 @@
             <artifactId>fileManager</artifactId>
             <groupId>..</groupId>
             <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/fileManager.jar</systemPath>
         </dependency>
 
     </dependencies>
@@ -107,5 +106,12 @@
         </resources>
 
     </build>
+
+    <repositories>
+        <repository>
+            <id>fileManager</id>
+            <url>${project.basedir}/src/main/resources/fileManager.jar</url>
+        </repository>
+    </repositories>
 
 </project>
