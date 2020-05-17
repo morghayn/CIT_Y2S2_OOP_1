@@ -1,10 +1,11 @@
-package Model;
+package Unit;
 
+import Model.Activity;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ActivityTest
 {
