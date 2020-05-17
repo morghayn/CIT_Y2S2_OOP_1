@@ -14,15 +14,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <!--
-    <repositories>
-        <repository>
-            <id>lib</id>
-            <url>${project.basedir}/libs</url>
-        </repository>
-    </repositories>
-    -->
-
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
@@ -48,12 +39,17 @@
         </dependency>
 
         <!--
+            mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file \
+            -Dfile=${project.basedir}/libs/fileManager.jar \
+            -DgroupId=com.github.morghayn \
+            -DartifactId=fileManager \
+            -Dversion=1.0 -Dpackaging=jar \
+        -->
         <dependency>
             <groupId>com.github.morghayn</groupId>
             <artifactId>fileManager</artifactId>
             <version>1.0</version>
         </dependency>
-        -->
 
     </dependencies>
 
